@@ -14,7 +14,7 @@ python -m venv venv
 ```
 pip install -r requirements.txt
 ```
-- 4 migrate for create local sqlite db
+- 4 migrate to create local sqlite db
 ```
 python manage.py migrate
 ```
@@ -26,4 +26,4 @@ python manage.py createsuperuser
 ```
 python manage.py runserver
 ```
-(optionally: 0.0.0.0:port -> for outsude localhost)
+(optionally: 0.0.0.0:port -> for outside localhost)
